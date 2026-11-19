@@ -50,3 +50,4 @@ print(f"\nPatient Name: {second_patient.name}\nOriginal Bill: {second_patient.bi
 print(f"\nPatient Name: {third_patient.name}\nOriginal Bill: {third_patient.bill_amount}\nFinal Bill: {third_patient.calculate_bill()}")
 
 print("Happy Birthday, Uhma!")
+print("Gift for Uhma: her wallet")
