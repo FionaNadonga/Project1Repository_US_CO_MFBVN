@@ -39,12 +39,14 @@ class PHPatient(Patient):
     return self.bill_amount * 0.85
 
 
-first_patient = Patient("Yoru", 1200)
-second_patient = SeniorPatient("Omen", 2100)
-third_patient = PHPatient("Chamber", 3800)
+first_patient = Patient("Claire", 1200)
+second_patient = SeniorPatient("Fiona", 2100)
+third_patient = PHPatient("Uhma", 3800)
 
 print("Hospital Billing System")
 print("-----------------------")
 print(f"Patient Name: {first_patient.name}\nOriginal Bill: {first_patient.bill_amount}\nFinal Bill: {first_patient.calculate_bill()}")
 print(f"\nPatient Name: {second_patient.name}\nOriginal Bill: {second_patient.bill_amount}\nFinal Bill: {second_patient.calculate_bill()}")
 print(f"\nPatient Name: {third_patient.name}\nOriginal Bill: {third_patient.bill_amount}\nFinal Bill: {third_patient.calculate_bill()}")
+
+print("Happy Birthday, Uhma!")
